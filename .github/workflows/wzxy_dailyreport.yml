@@ -51,7 +51,7 @@ jobs:
         WZXY_CITYCODE: ${{secrets.CITYCODE}}
       run: python wzxy-dailyreport.py
   
-    USER_02:
+  USER_02:
     runs-on: ubuntu-latest
     environment: WZXY_CONFIG_lxy # 填写需要使用的用户配置对应的环境,请自行根据实际情况修改
     steps:
